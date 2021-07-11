@@ -1,7 +1,7 @@
 const sql = require("mssql");
 var config = {
-  user: "sa",
-  password: "test123",
+  user: "db_username",
+  password: "db_password",
   server: "127.0.0.1",
   database: "HCMDRD",
   options: {
@@ -9,7 +9,7 @@ var config = {
     enableArithAbort: true,
     instancename: "SQLEXPRESS",
   },
-  port: 55512,
+  port: tcp/ip port number,
 };
 async function getOrders() {
   try {
